@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+
+  <title>Rock Paper Scissors</title>
+  <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Rock Paper Scissors</h1>
+
+  <section class="submitName">
+    <label for="yourName">
+      <h2>Step 1  Enter Your Name:</h2>
+    </label>
+    <input type="text" class="yourName" name="yourName">
+    <button onclick="submitName()">Submit Your Name</button>
+  </section>
+
+  <section class="yourChoice">
+    <p>Your Name</p>
+
+  </section>
+
+  <section class="computerChoice">
+    <p>Computer</p>
+  </section>
+
+  <section class="chooseButtons">
+    <h2>Step 2 Choose: Rock? Paper? Scissors?</h2>
+    <button onclick="chooseRock()" class="rock">Rock</button>
+    <button onclick="choosePaper()" class="paper">Paper</button>
+    <button onclick="chooseScissors()" class="scissor">Scissors</button>
+  </section>
+
+  <section class="result">
+    
+  </section>
+</body>
